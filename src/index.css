@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.menuShape{
+  clip-path: polygon(15% 0%,100% 0%,85% 100%, 0% 100%);
+}
+.navShape{
+  clip-path: polygon(50% 0%,100% 0, 100% 100%, 0 60%, 0 0);
+}
+.imgShapeLeft{
+  clip-path: polygon(10% 0%,90% 0%,75% 100%,0% 100%);
 }
