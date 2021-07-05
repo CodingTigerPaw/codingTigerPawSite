@@ -1,12 +1,16 @@
 import Navigation from './components/Navigation'
-import InfoSection from './components/InfoSection';
+import WhySection from './components/WhySection';
+import SkillsSection from './components/SkillsSection';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
       <div className="App bg-gray-400 min-h-screen max-h-full">
           <Navigation/>
-          <InfoSection/>
-          <InfoSection/>
+          <LandingPage/>
+
+          <WhySection/>
+          <SkillsSection/>
         </div>
       
   );

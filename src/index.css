@@ -10,5 +10,11 @@
   clip-path: polygon(50% 0%,100% 0, 100% 100%, 0 60%, 0 0);
 }
 .imgShapeLeft{
-  clip-path: polygon(10% 0%,90% 0%,75% 100%,0% 100%);
+  clip-path: polygon(0% 0%,90% 0%,75% 100%,0% 100%);
+}
+.imgShapeRight{
+  clip-path: polygon(0% 0%,100% 0%,100% 100%,25% 100%);
+} 
+.imgShapeMobile{
+  clip-path:  polygon(0 0,100% 0,100% 100%,0 90%);
 }
