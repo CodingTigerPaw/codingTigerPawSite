@@ -22,9 +22,15 @@ const Navigation = () =>{
                <Link to='skillsSection' smooth spy >
                     <MenuButtonSkills/>
                </Link>
-                <MenuButtonAbout/>
-                <MenuButtonContact/>
-                <MenuButtonPrice/>
+               <Link to="aboutSection" smooth spy>
+                    <MenuButtonAbout/>
+               </Link>
+               <Link to='ContactSection' smooth spy>
+                    <MenuButtonContact/>
+               </Link>
+               <Link to='PriceSection' smooth spy>
+                    <MenuButtonPrice/>
+               </Link>
 
             </div>
             <FontAwesomeIcon  onClick= {()=>{console.log('click')}} icon={faBars} className=" absolute ml-4 mt-3 text-4xl md:hidden cursor-pointer hover:text-yellow-300"/>
