@@ -6,7 +6,6 @@ import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import PriceSection from './components/PriceSection';
 
-
 function App() {
   return (
       <div className="App bg-gray-400 min-h-screen max-h-full">

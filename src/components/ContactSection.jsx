@@ -4,7 +4,7 @@ const ContactSection = () => {
         <div id="ContactSection" className="container bg-gray-600 mt-8 md:mt-0 m-auto h-screen flex flex-col md:flex-row">
             <div className=" md:w-1/2 md:pt-32 md:pl-4">
                 <img src={Tiger} alt="not working..." className=" md:hidden w-full h-72 md:h-auto ml-auto mr-auto md:w-full md:mt-0 imgShapeMobile  border-t-4 border-b-4 border-yellow-300" />
-                <img src={Tiger} alt="not working..." className=" hidden md:inline w-5/6 md:h-auto md:ml:0 mr-auto md:w-full mt-4 md:mt-0 imgShapeLeft  border-t-4 border-b-4 border-yellow-300" />
+                <img src={Tiger} alt="not working..." className=" hidden md:inline w-5/6 md:h-auto mr-auto md:w-full mt-4 md:mt-0 imgShapeLeft  border-t-4 border-b-4 border-yellow-300" />
             </div>
             <div className=' md:p-8 md:pt-24  md:w-1/2 text-center text-white font-montserrat pt-8 pr-2 pl-2 text-xs md:text-lg leading-5'>
                 <h1 className="text-4xl tracking-widest"><span className="text-yellow-300 font-bold text-5xl">T</span>ytuł</h1>

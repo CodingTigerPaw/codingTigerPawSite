@@ -7,10 +7,10 @@ const LandingPage = () =>{
 
             <p className='text-white font-montserrat md:text-xl md:pl-16 md:pr-16'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repudiandae aspernatur inventore minima, aperiam soluta qui quibusdam vitae facilis nihil amet? Vel, inventore nemo? Modi adipisci aliquid saepe sint, autem ea consequuntur, nostrum cupiditate quasi, tempora ex? Blanditiis, amet totam incidunt numquam est iure nihil obcaecati eos eaque voluptates ab!</p>
             <Link to='WhySection' smooth>
-                <button className=" mt-20 w-60 h-20 bg-yellow-300">More...</button>
-            </Link>
+                <button className=" mt-20 w-60 h-20 bg-yellow-300">More...</button> 
+            </Link> 
         </div>
-    )
+    ) 
 }
 
 export default LandingPage
